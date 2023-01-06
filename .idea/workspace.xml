@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22296139-78c5-4ac4-8752-8de2b3e17aa7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AirBnB_clone_v2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console.py" beforeDir="false" afterPath="$PROJECT_DIR$/console.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_delete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_place_amenities.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_place_amenities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/amenity.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/amenity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/base_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/city.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/city.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/engine/db_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/engine/db_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/engine/file_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/engine/file_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/place.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/place.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_models/test_amenity.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models/test_amenity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_models/test_base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models/test_base_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_models/test_city.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models/test_city.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_models/test_engine/test_db_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models/test_engine/test_db_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_models/test_engine/test_file_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models/test_engine/test_file_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_models/test_place.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models/test_place.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_models/test_review.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models/test_review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_models/test_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models/test_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_models/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models/test_user.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JonNSKWBjEKSGCczWG3gwmqslL" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/peterchibunna/Downloads/AirBnB_clone_v2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AirBnB_clone_v2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="review" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AirBnB_clone_v2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/review.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.review" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22296139-78c5-4ac4-8752-8de2b3e17aa7" name="Changes" comment="" />
+      <created>1672753263613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672753263613</updated>
+      <workItem from="1672753266233" duration="658000" />
+      <workItem from="1672839029311" duration="20710000" />
+      <workItem from="1673013518957" duration="9850000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

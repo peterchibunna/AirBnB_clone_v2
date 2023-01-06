@@ -19,9 +19,10 @@ class BaseModel:
 
     def __init__(self, *args, **kwargs):
         """Instantiates a new model"""
+        now = datetime.now()
         if not kwargs:
             self.id = str(uuid.uuid4())
-            self.created_at = datetime.now()
+            self.created_at = now
             self.updated_at = datetime.now()
         else:
             for k in kwargs:

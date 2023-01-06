@@ -92,7 +92,7 @@ class TestDBStorage(unittest.TestCase):
         new.save()
         self.assertTrue(new in storage.all().values())
         cursor = dbc.cursor()
-        cursor.execute('SELECT * FROM `users` WHERE `id`=%s', new.id)
+        cursor.execute('SELECT * FROM `users` WHERE `id`=%s' % new.id)
         result = cursor.fetchone()
         self.assertTrue(result is not None)
         self.assertIn('john_doe.smith@gmail.com', result)
@@ -118,16 +118,13 @@ class TestDBStorage(unittest.TestCase):
         cursor.execute(
             'INSERT INTO `users`(`id`, `created_at`, `updated_at`, `email`, '
             '`password`, `first_name`, `last_name`) '
-            'VALUES(%s, %s, %s, %s, %s, %s, %s);',
-            [
-                'User.8ded-7d232d5e5a14',
-                str(datetime.now()),
-                str(datetime.now()),
-                'ben_pike@yahoo.com',
-                'pass',
-                'Benjamin',
-                'Pike',
-            ]
+            'VALUES(%s, %s, %s, %s, %s, %s, %s);' %
+            ('User.8ded-7d232d5e5a14', str(datetime.now()),
+             str(datetime.now()),
+             'ben_pike@yahoo.com',
+             'pass',
+             'Benjamin',
+             'Pike')
         )
         self.assertNotIn('User.User.8ded-7d232d5e5a14', storage.all())
         dbc.commit()
@@ -152,7 +149,7 @@ class TestDBStorage(unittest.TestCase):
             db=os.getenv('HBNB_MYSQL_DB')
         )
         cursor = dbc.cursor()
-        cursor.execute('SELECT * FROM `users` WHERE `id`="{}"'.format(new.id))
+        cursor.execute('SELECT * FROM `users` WHERE `id`=%s' % new.id)
         result = cursor.fetchone()
         cursor.execute('SELECT COUNT(*) FROM `users`;')
         old_cnt = cursor.fetchone()[0]
@@ -167,7 +164,7 @@ class TestDBStorage(unittest.TestCase):
             db=os.getenv('HBNB_MYSQL_DB')
         )
         cursor1 = dbc1.cursor()
-        cursor1.execute('SELECT * FROM `users` WHERE `id`="{}"'.format(new.id))
+        cursor1.execute('SELECT * FROM `users` WHERE `id`=%s' % new.id)
         result = cursor1.fetchone()
         cursor1.execute('SELECT COUNT(*) FROM `users`;')
         new_cnt = cursor1.fetchone()[0]
