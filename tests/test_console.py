@@ -50,17 +50,11 @@ class TestHBNBCommand(unittest.TestCase):
         """
         with patch('sys.stdout', new=StringIO()) as cout:
             cons = HBNBCommand()
-            # creating a model with non-null attribute(s)
-            # with self.assertRaises(sqlalchemy.exc.OperationalError):
-            #     cons.onecmd('create User')
             # creating a User instance
             clear_stream(cout)
             cons.onecmd(
                 'create User email="peter@gmail.com" password="password129"')
             result_id = cout.getvalue().strip()
-            print('*^*^*^*^*^*^*^*^*^*^*^*^*^*^*')
-            print(result_id)
-            print('*^*^*^*^*^*^*^*^*^*^*^*^*^*^*')
             dbc = MySQLdb.connect(
                 host=os.getenv('HBNB_MYSQL_HOST'),
                 port=3306,
@@ -98,7 +92,7 @@ class TestHBNBCommand(unittest.TestCase):
         with patch('sys.stdout', new=StringIO()) as cout:
             cons = HBNBCommand()
             # showing a User instance
-            obj = User(email="peter@gmail.com", password="password129")
+            obj = User(email="peter@gmail.com", password="password128")
             dbc = MySQLdb.connect(
                 host=os.getenv('HBNB_MYSQL_HOST'),
                 port=3306,
@@ -130,9 +124,9 @@ class TestHBNBCommand(unittest.TestCase):
             result = cursor.fetchone()
             self.assertTrue(result is not None)
             self.assertIn('peter@gmail.com', result)
-            self.assertIn('password129', result)
+            self.assertIn('password128', result)
             self.assertIn('peter@gmail.com', cout.getvalue())
-            self.assertIn('password129', cout.getvalue())
+            self.assertIn('password128', cout.getvalue())
             cursor.close()
             dbc.close()
 

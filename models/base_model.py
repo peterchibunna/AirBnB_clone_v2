@@ -6,7 +6,6 @@ from sqlalchemy import Column, String, DATETIME
 from sqlalchemy.ext.declarative import declarative_base
 from os import getenv
 
-
 Base = declarative_base()
 
 
@@ -20,6 +19,7 @@ class BaseModel:
     def __init__(self, *args, **kwargs):
         """Instantiates a new model"""
         now = datetime.now()
+        self.id = str(uuid.uuid4())
         if not kwargs:
             self.id = str(uuid.uuid4())
             self.created_at = now
@@ -57,8 +57,11 @@ class BaseModel:
         dictionary.update(self.__dict__)
         dictionary.update({
             '__class__': (str(type(self)).split('.')[-1]).split('\'')[0]})
-        dictionary['created_at'] = self.created_at.isoformat()
-        dictionary['updated_at'] = self.updated_at.isoformat()
+        dictionary['created_at'] = self.created_at.isoformat() if \
+            self.created_at else datetime.now().isoformat()
+
+        dictionary['updated_at'] = self.updated_at.isoformat() if \
+            self.updated_at else datetime.now().isoformat()
         if '_sa_instance_state' in dictionary.keys():
             del dictionary['_sa_instance_state']
         return dictionary
