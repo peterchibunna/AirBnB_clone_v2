@@ -83,6 +83,7 @@ class TestHBNBCommand(unittest.TestCase):
             with self.assertRaises(sqlalchemy.exc.OperationalError):
                 cons.onecmd('create User')
             clear_stream(cout)
+            # Fixme: rollback session after this test
 
     @unittest.skipIf(
         os.getenv('HBNB_TYPE_STORAGE') != 'db', 'DBStorage test')
