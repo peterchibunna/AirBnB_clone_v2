@@ -16,7 +16,7 @@ class State(BaseModel, Base):
     else:
         name = ""
 
-    # if getenv("HBNB_TYPE_STORAGE") != "db":
+    if getenv("HBNB_TYPE_STORAGE") != "db":
         @property
         def cities(self):
             """Get a list of all related City objects."""
