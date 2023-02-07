@@ -15,7 +15,14 @@
     <list default="true" id="22296139-78c5-4ac4-8752-8de2b3e17aa7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console.py" beforeDir="false" afterPath="$PROJECT_DIR$/console.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/engine/db_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/engine/db_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/amenity.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/amenity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/base_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/city.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/city.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/place.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/place.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/7-states_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/7-states_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +124,7 @@
       <workItem from="1673261241978" duration="602000" />
       <workItem from="1673358370597" duration="8000" />
       <workItem from="1674506384198" duration="7863000" />
-      <workItem from="1675760989564" duration="12198000" />
+      <workItem from="1675760989564" duration="14935000" />
     </task>
     <servers />
   </component>
