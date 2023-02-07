@@ -19,7 +19,7 @@ def hello_hbnb():
 @app.route("/hbnb", strict_slashes=False)
 def hello_hbnb2():
     """Displays specified message"""
-    return "HBNB!"
+    return "HBNB"
 
 
 if __name__ == "__main__":

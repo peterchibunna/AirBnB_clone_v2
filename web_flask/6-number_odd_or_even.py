@@ -23,7 +23,7 @@ def hello_hbnb():
 @app.route("/hbnb", strict_slashes=False)
 def hello_hbnb2():
     """Displays specified message"""
-    return "HBNB!"
+    return "HBNB"
 
 
 @app.route("/c/<string:text>", strict_slashes=False)
