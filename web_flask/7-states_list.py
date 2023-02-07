@@ -4,6 +4,7 @@ The application listens on 0.0.0.0, on the default port: 5000.
 Routes:
     /states_list: Shows the states in the db?
     """
+
 from flask import Flask, render_template
 from models import storage
 
@@ -24,4 +25,4 @@ def teardown(ctx):
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=3000)
