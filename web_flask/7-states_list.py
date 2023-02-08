@@ -1,4 +1,4 @@
-#!venv/bin/python3
+#!/usr/bin/python3
 """
 Start Flask web app
 The application listens on 0.0.0.0, on the default port: 5000.
