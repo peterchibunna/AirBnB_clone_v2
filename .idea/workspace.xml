@@ -13,7 +13,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22296139-78c5-4ac4-8752-8de2b3e17aa7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/amenity.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/amenity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/base_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/city.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/city.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/engine/db_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/engine/db_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/engine/file_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/engine/file_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/place.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/place.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/0-hello_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/0-hello_route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/1-hbnb_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/1-hbnb_route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/10-hbnb_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/10-hbnb_filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/2-c_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/2-c_route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/3-python_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/3-python_route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/4-number_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/4-number_route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/5-number_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/5-number_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/6-number_odd_or_even.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/6-number_odd_or_even.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_flask/7-states_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/7-states_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/8-cities_by_states.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/8-cities_by_states.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/9-states.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/9-states.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/0-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/1-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/100-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/101-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/102-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/103-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/2-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/3-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/4-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/5-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/6-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/7-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/8-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/images/icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/images/icon_bath.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/images/icon_bed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/images/icon_group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/images/icon_pets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/images/icon_tv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/images/icon_wifi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/100-places.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/101-places.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/102-common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/102-filters.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/102-footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/102-header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/102-places.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/103-common.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/static/styles/103-common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/103-filters.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/static/styles/103-filters.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/103-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/static/styles/103-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/103-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/static/styles/103-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/103-places.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/static/styles/103-places.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/2-common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/2-footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/2-header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/3-common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/3-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/static/styles/3-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/3-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/static/styles/3-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/4-common.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/static/styles/4-common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/4-filters.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/5-filters.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/6-filters.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/static/styles/6-filters.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/7-places.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/static/styles/8-places.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/templates/10-hbnb_filters.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/templates/10-hbnb_filters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/templates/100-hbnb.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/templates/100-hbnb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/templates/5-number.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/templates/5-number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/templates/6-number_odd_or_even.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/templates/6-number_odd_or_even.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/templates/7-states_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/templates/7-states_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/templates/8-cities_by_states.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/templates/8-cities_by_states.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_flask/templates/9-states.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_flask/templates/9-states.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +140,8 @@
       <workItem from="1673358370597" duration="8000" />
       <workItem from="1674506384198" duration="7863000" />
       <workItem from="1675760989564" duration="21761000" />
-      <workItem from="1675868431303" duration="2914000" />
+      <workItem from="1675868431303" duration="5659000" />
+      <workItem from="1675951094947" duration="362000" />
     </task>
     <servers />
   </component>
